@@ -1,0 +1,9 @@
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles if needed in the future */
+body {
+    @apply bg-gray-100 dark:bg-bg-dark text-gray-800 dark:text-text-dark transition-colors duration-300;
+}
